@@ -5,7 +5,9 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "automatic",
+    "icon": "./assets/icon.png",
     "splash": {
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#2196F3"
     },
@@ -18,9 +20,11 @@
     },
     "android": {
       "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#2196F3"
       },
       "package": "com.tbibvision.app",
+      "versionCode": 1,
       "permissions": [
         "CAMERA",
         "READ_EXTERNAL_STORAGE",
@@ -35,7 +39,12 @@
           "cameraPermission": "The app needs access to your camera to capture medical images."
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "tbibvision-medical-ai"
+      }
+    }
   }
 }
 
