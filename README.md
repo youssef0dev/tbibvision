@@ -270,10 +270,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Developer
 
-Created with ❤️ by [Your Name]
+Created with ❤️ by Youssef Jarmouni
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+- GitHub: [@youssef0dev](https://github.com/youssef0dev)
+- Email: youssef.dev.codes@gmail.com
 
 ---
 
@@ -290,7 +290,7 @@ Created with ❤️ by [Your Name]
 
 If you have questions or need help:
 
-1. Check existing [Issues](https://github.com/YOUR_USERNAME/tbibvision/issues)
+1. Check existing [Issues](https://github.com/youssef0dev/tbibvision/issues)
 2. Open a new issue with details
 3. Include error messages and screenshots
 
