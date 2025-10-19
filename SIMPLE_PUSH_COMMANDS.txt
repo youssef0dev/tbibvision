@@ -1,0 +1,38 @@
+========================================
+  SIMPLE GITHUB PUSH - 3 STEPS
+========================================
+
+STEP 1: Create Repository on GitHub
+-----------------------------------
+1. Go to: https://github.com/new
+2. Repository name: tbibvision
+3. Make it Public
+4. DO NOT check any boxes
+5. Click "Create repository"
+
+
+STEP 2: Copy These Commands
+----------------------------
+After creating the repo, copy and paste these commands one by one:
+
+git remote add origin https://github.com/youssef0dev/tbibvision.git
+git branch -M main
+git push -u origin main
+
+
+STEP 3: Enter Credentials
+--------------------------
+When asked:
+- Username: youssef0dev
+- Password: Your Personal Access Token
+
+Get token at: https://github.com/settings/tokens
+
+
+THAT'S IT! Your app will be on GitHub!
+========================================
+
+Your repository URL will be:
+https://github.com/youssef0dev/tbibvision
+
+
