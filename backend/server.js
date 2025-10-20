@@ -53,7 +53,7 @@ app.use((err, req, res, next) => {
 
 // Start server - Listen on all network interfaces (0.0.0.0)
 // Only start server if not in serverless environment (Vercel)
-if (process.env.NODE_ENV !== 'production' || process.env.VERCEL !== '1') {
+if (!process.env.VERCEL) {
   app.listen(PORT, '0.0.0.0', () => {
     console.log(`🏥 TbibVision API Server running on port ${PORT}`);
     console.log(`📍 Local: http://localhost:${PORT}`);
