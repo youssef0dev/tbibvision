@@ -7,9 +7,11 @@ const { analyzeLab, analyzeSkin, analyzeSymptoms } = require('../utils/openroute
 const supabase = require('../utils/supabase');
 
 // Configure multer for file uploads
+// Use /tmp directory for Vercel serverless compatibility
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
-    const uploadDir = path.join(__dirname, '../uploads');
+    // Use /tmp for Vercel, fallback to uploads for local
+    const uploadDir = process.env.VERCEL ? '/tmp' : path.join(__dirname, '../uploads');
     if (!fs.existsSync(uploadDir)) {
       fs.mkdirSync(uploadDir, { recursive: true });
     }
