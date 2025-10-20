@@ -1,0 +1,17 @@
+backend/
+*.md
+.git/
+.github/
+*.bat
+ADD_ENV_TO_VERCEL.md
+DEPLOY_TO_VERCEL.md
+DISABLE_VERCEL_PROTECTION_STEPS.md
+VERCEL_FIX_GUIDE.md
+fix-vercel.bat
+deploy-vercel.bat
+start-backend.bat
+GOOGLE_PLAY_STORE_GUIDE.md
+BUILD_AAB_QUICK_START.md
+DOWNLOAD_AAB.bat
+AAB_FILE_PATH.txt
+
